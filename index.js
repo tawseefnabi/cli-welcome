@@ -1,7 +1,7 @@
 #!/usr/bin/env node
-(async () =>{
+module.exports =  async () =>{
   console.log('welcome');
-})()
+}
 
 
 
