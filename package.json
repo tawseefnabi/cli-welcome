@@ -1,6 +1,6 @@
 {
-  "name": "@tawseefnabi/cli-welcome",
-  "version": "1.0.1",
+  "name": "@tos_/cli-welcome",
+  "version": "0.0.1",
   "description": "Welcome customised header for Node.js CLI software",
   "main": "index.js",
   "bin": {
@@ -29,6 +29,6 @@
   },
   "homepage": "https://github.com/tawseefnabi/cli-welcome#readme",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "@tawseef:registry": "https://npm.pkg.github.com/"
   }
 }
