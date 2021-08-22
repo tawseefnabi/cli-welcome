@@ -1,34 +1,44 @@
 {
-  "name": "@tos_/cli-welcome",
-  "version": "0.0.3",
-  "description": "Welcome customised header for Node.js CLI software",
-  "main": "index.js",
-  "bin": {
-    "welcome": "index.js",
-    "clw": "index.js",
-    "cli-welcome": "index.js"
-  },
-  "scripts": {
-    "test": "node test.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/tawseefnabi/cli-welcome.git"
-  },
-  "keywords": [
-    "cli-welcome",
-    "welcome",
-    "welcome-message",
-    "node",
-    "tawseef"
-  ],
-  "author": "tawseef <tawseefnabi9@gmail.com> (https://twitter.com/NabiTowseef)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/tawseefnabi/cli-welcome/issues"
-  },
-  "homepage": "https://github.com/tawseefnabi/cli-welcome#readme",
-  "publishConfig": {
-    "@tawseef:registry": "https://npm.pkg.github.com/"
-  }
+	"name": "@tos_/cli-welcome",
+	"version": "0.0.3",
+	"description": "Welcome customised header for Node.js CLI software",
+	"main": "index.js",
+	"bin": {
+		"welcome": "index.js",
+		"clw": "index.js",
+		"cli-welcome": "index.js"
+	},
+	"scripts": {
+		"start": "node index.js",
+		"test": "node test.js",
+		"format": "prettier --write \"./**/*.{js,json}\""
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/tawseefnabi/cli-welcome.git"
+	},
+	"keywords": [
+		"cli-welcome",
+		"welcome",
+		"welcome-message",
+		"node",
+		"tawseef"
+	],
+	"author": "tawseef <tawseefnabi9@gmail.com> (https://twitter.com/NabiTowseef)",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/tawseefnabi/cli-welcome/issues"
+	},
+	"homepage": "https://github.com/tawseefnabi/cli-welcome#readme",
+	"publishConfig": {
+		"@tawseef:registry": "https://npm.pkg.github.com/",
+		"access": "public"
+	},
+	"dependencies": {
+		"chalk": "^4.1.2",
+		"clear-any-console": "^1.16.2"
+	},
+	"devDependencies": {
+		"prettier": "^2.3.2"
+	}
 }

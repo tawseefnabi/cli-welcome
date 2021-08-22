@@ -11,5 +11,3 @@ welcome({
 	clear: true,
 	version: `v1.0`
 });
-
-console.log(`\n\n\n\n\n`);
