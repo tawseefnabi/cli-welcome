@@ -3,5 +3,3 @@
 # Ignore all directories called node_modules in current folder and any subfolders.
 node_modules/
 /node_modules/
-
-package-lock.json
