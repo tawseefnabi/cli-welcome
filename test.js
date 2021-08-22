@@ -9,5 +9,5 @@ welcome({
 	color: `#000000`,
 	bold: true,
 	clear: true,
-	version: `v1.0`
+	version: `1.0`
 });

@@ -15,7 +15,7 @@ module.exports = (options = {}) => {
 		color: '#000000',
 		bold: true,
 		clear: true,
-		version: 1
+		version: ''
 	};
 	const opts = {...defaultOptions, ...options};
 	const {title, tagLine, description, bgColor, color, bold, clear, version} =
