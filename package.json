@@ -16,7 +16,7 @@
 		"cli-welcome",
 		"welcome",
 		"welcome-message",
-		"node",
+		"node"
 	],
 	"author": "tawseef <tawseefnabi9@gmail.com> (https://twitter.com/NabiTowseef)",
 	"license": "MIT",
