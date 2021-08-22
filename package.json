@@ -1,6 +1,6 @@
 {
 	"name": "@tos_/cli-welcome",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "Welcome customised header for Node.js CLI software",
 	"main": "index.js",
 	"scripts": {
