@@ -3,7 +3,106 @@ Welcome  customised header for Node.js CLI software
 
 <br>
 
-# cli-welcome
+[![📟](https://raw.githubusercontent.com/ahmadawais/stuff/master/images/git/install.png)](./../../)
+
+## Install
+
+```sh
+npm install @tos_/cli-welcome
+```
+
+<br>
+
+[![⚙️](https://raw.githubusercontent.com/ahmadawais/stuff/master/images/git/usage.png)](./../../)
+
+## Usage
+
+```js
+const welcome = require('@tos_/cli-welcome');
+
+// Use it.
+welcome({title: `Welcome CLI`, tagLine: `by Tawseef Ahmad`});
+
+// OR with all the options set like this:
+welcome({
+	title: `Welcome CLI`,
+	tagLine: `by Tawseef Ahmad`,
+	bgColor: `#FADC00`,
+	color: `#000000`,
+	bold: true,
+	clear: true,
+	version: `v1.0`
+});
+```
+<br>
+
+[![📃](https://raw.githubusercontent.com/ahmadawais/stuff/master/images/git/options.png)](./../../)
+
+## API
+
+### welcome(options)
+
+#### ❯ options
+
+Type: `object`<br>
+Default: `{}`
+
+You can specify the options below.
+
+#### ❯ title
+
+Type: `string`
+
+CLI title with background color highlight.
+
+#### ❯ tagLine
+
+Type: `string`
+
+CLI tag line in front of the title without highlight but dimmed.
+
+#### ❯ description
+
+Type: `string`
+
+CLI description below the title.
+
+#### clear
+
+Type: `boolean`<br>
+Default: `true`
+
+Clear console.
+
+#### bold
+
+Type: `boolean`<br>
+Default: `true`
+
+Bold heading text.
+
+#### bgColor
+
+Type: `string`<br>
+Default: `#ffffff`
+
+Background color highlight for `heading`.
+
+#### color
+
+Type: `string`<br>
+Default: `true`
+
+Text color for `heading`.
+
+#### version
+
+Type: `string`<br>
+Default: `(empty string)`
+
+Print version text.
+
+<br>
 
 ## Connect
 
