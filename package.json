@@ -3,11 +3,6 @@
 	"version": "1.0.1",
 	"description": "Welcome customised header for Node.js CLI software",
 	"main": "index.js",
-	"bin": {
-		"welcome": "index.js",
-		"clw": "index.js",
-		"cli-welcome": "index.js"
-	},
 	"scripts": {
 		"start": "node index.js",
 		"test": "node test.js",
@@ -22,7 +17,6 @@
 		"welcome",
 		"welcome-message",
 		"node",
-		"tawseef"
 	],
 	"author": "tawseef <tawseefnabi9@gmail.com> (https://twitter.com/NabiTowseef)",
 	"license": "MIT",
@@ -30,10 +24,6 @@
 		"url": "https://github.com/tawseefnabi/cli-welcome/issues"
 	},
 	"homepage": "https://github.com/tawseefnabi/cli-welcome#readme",
-	"publishConfig": {
-		"@tawseef:registry": "https://npm.pkg.github.com/",
-		"access": "public"
-	},
 	"dependencies": {
 		"chalk": "^4.1.2",
 		"clear-any-console": "^1.16.2"
